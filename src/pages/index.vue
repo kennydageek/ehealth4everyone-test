@@ -1,7 +1,11 @@
 <template>
-  <div class="flex h-dvh justify-center items-center">
-    <div class="w-1/2">
-      <img src="@/assets/images/logo.png" class="w-1/2 mx-auto mb-6" alt="" />
+  <div class="md:flex py-10 h-dvh md:justify-center items-center">
+    <div class="md:w-1/2">
+      <img
+        src="@/assets/images/logo.png"
+        class="w-[200px] mx-auto mb-6"
+        alt=""
+      />
       <div id="container" style="height: 400px"></div>
     </div>
   </div>
