@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.custom-box {
+  @apply bg-white  border border-slate-300;
+}
+.custom-box-with-hover {
+  @apply custom-box hover:bg-slate-100;
+}
