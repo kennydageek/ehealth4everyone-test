@@ -10,9 +10,6 @@
   },
   "dependencies": {
     "firebase": "^10.12.4",
-    "highcharts": "^11.4.6",
-    "highcharts-vue": "^2.0.1",
-    "pinia": "^2.1.7",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
