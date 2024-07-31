@@ -26,8 +26,6 @@ console.log(db);
 
 const app = createApp(App);
 
-console.log(firebaseapp);
-app.use(HighchartsVue);
 app.use(router);
 
 app.mount('#app');
