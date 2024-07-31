@@ -1,6 +1,9 @@
 <template>
-  <div>
-    <div id="container" style="width: 80%; height: 400px"></div>
+  <div class="flex h-dvh justify-center items-center">
+    <div class="w-1/2">
+      <img src="@/assets/images/logo.png" class="w-1/2 mx-auto mb-6" alt="" />
+      <div id="container" style="height: 400px"></div>
+    </div>
   </div>
 </template>
 
@@ -84,7 +87,7 @@ const updateChart = (seriesData) => {
     },
     title: {
       text: 'Blood Group Data of 20 Patients',
-      align: 'left',
+      align: 'center',
     },
     xAxis: {
       categories: ['10-19', '20-29', '30-39'],
